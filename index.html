@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt">
 	<head>
 		<!-- HTML Meta Tags -->
 		<meta charset="UTF-8">
@@ -31,52 +31,58 @@
 		<link rel="preload" as="font" href="/fonts/SpecialElite.woff" type="font/woff2" crossorigin="anonymous">
 		<style>
 
-@font-face {
-  font-family: typewriter;
-  src: local('typewriter'), url(fonts/SpecialElite.woff);
-  font-display: swap;
-}
+		@font-face {
+		  font-family: typewriter;
+		  src: local('typewriter'), url(fonts/SpecialElite.woff);
+		  font-display: swap;
+		}
 
-body {
-	background-color: rgb(253, 255, 247);
-	font-family: typewriter;
-}
+		body {
+			background-color: rgb(253, 255, 247);
+			font-family: typewriter;
+		}
 
-.container {
-	padding: 50px;
-	margin: auto;
-	width: 800px;
-	text-align: justify;
-}
+		.container {
+			padding: 50px;
+			margin: auto;
+			width: 800px;
+			text-align: justify;
+		}
 
-.header, .footer {
-	text-align: center;
-}
+		.header, .footer {
+			text-align: center;
+		}
 
-.manifest {
-	font-size: 14pt;
-}
+		.manifest {
+			font-size: 14pt;
+		}
 
-img {
-	height: 48px;
-	width: 48px;
-	border: 0;
-	outline: none;
-	background-size: 100%;
-}
+		img {
+			height: 48px;
+			width: 48px;
+			border: 0;
+			outline: none;
+			background-size: 100%;
+		}
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  .container {
-    width: auto;
-	padding: 10px;
-  }
-}
+		#dragon {
+			width: 100px;
+			height: auto;
+		}
+
+		@media only screen and (max-width: 768px) {
+		  /* For mobile phones: */
+		  .container {
+			width: auto;
+			padding: 10px;
+		  }
+		}
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<div class="header">
+					<div><img id="dragon" alt="Geração Esponânea" src="./assets/dragonfly-image_300.png" width="300px" /></div>
 					<div class="title"><h1>GERAÇÃO ESPONTÂNEA</h1></div>
 					<div class="subtitle"><h2>Aniversário de 100 anos da Semana de Arte Moderna de 1922<h2></div>
 			</div>
