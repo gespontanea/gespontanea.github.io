@@ -18,7 +18,7 @@ title: ""
 email: geracaoespontanea22@gmail.com
 description: "Esse é o nome do movimento artístico agora lançado através deste manifesto: GERAÇÃO ESPONTÂNEA – Aniversário de 100 anos da Semana de Arte Moderna de 1922."
 baseurl:  / # the optional subpath of your site, e.g. "/blog"
-url: https://gespontanea.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: https://geracaoespontanea.art # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 author:
   name: Geração Espontânea 22
   twitter: https://twitter.com/gespontanea_22
