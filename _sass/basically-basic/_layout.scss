@@ -73,11 +73,16 @@ main {
 
   main {
     font-family: $home-font-family;
-    width: 1000px;
     text-align: justify;
     margin: 0 auto;
     display: block;
+
+    @include breakpoint($small) {
+      width: span(14 of 16);
+    }
   }
+
+
 }
 .i18n img {
   width: 40px;
